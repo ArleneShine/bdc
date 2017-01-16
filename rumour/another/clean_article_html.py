@@ -11,6 +11,15 @@ sys.setdefaultencoding("utf-8")
 result_path = "result/"
 
 
+def get_category_url():
+    urls = list()
+    with open('category_url.tsv', 'r') as f:
+        for line in f:
+            line = line.strip().split('\t')
+            urls.append(line[1])
+    return urls
+
+
 def get_article_num(html):
     doc = pq(html)
     div = doc('div[class="widget page-btns-wrapper"]')
@@ -92,7 +101,7 @@ def get_content4(html):
 def get_content5(html):
     lis = list()
     doc = pq(html)
-    divs = doc('div[class="comp flex article-content"]')
+    divs = doc('div[class="comp flex article-content expert-content"]')
     for div in divs:
         div = pq(div).children()
         ps = div('p')
@@ -106,6 +115,32 @@ def get_content6(html):
     lis = list()
     doc = pq(html)
     divs = doc('div[id="articlebody"]')
+    for div in divs:
+        div = pq(div).children()
+        ps = div('p')
+        for p in ps:
+            p = pq(p)
+            lis.append(p.text())
+    return lis
+
+
+def get_content7(html):
+    lis = list()
+    doc = pq(html)
+    divs = doc('div[class="comp flex article-content expert-content"]')
+    for div in divs:
+        div = pq(div).children()
+        ps = div('p')
+        for p in ps:
+            p = pq(p)
+            lis.append(p.text())
+    return lis
+
+
+def get_content0(html):
+    lis = list()
+    doc = pq(html)
+    divs = doc('div[id="flex_1-0"]')
     for div in divs:
         div = pq(div).children()
         ps = div('p')
@@ -145,6 +180,8 @@ def write_result(category, title, url, date, content):
 
 
 def clean_all_article():
+    fix_count = 0
+    category_url = get_category_url()
     for filename in glob.glob(r'article_url/*.tsv'):
         print '------ %s start --------' % filename
         category = filename.replace('.tsv', '').replace('article_url/', '')
@@ -159,17 +196,23 @@ def clean_all_article():
                         l[0].replace('/', '-').replace('.', '_'))
                     with open(filename, 'r') as f:
                         html = f.read()
-                    lis = get_content1(html)
+                    lis = get_content0(html)
                     if not lis:
-                        lis = get_content2(html)
+                        lis = get_content1(html)
                         if not lis:
-                            lis = get_content3(html)
+                            lis = get_content2(html)
                             if not lis:
-                                lis = get_content4(html)
+                                lis = get_content3(html)
                                 if not lis:
-                                    lis = get_content5(html)
+                                    lis = get_content4(html)
                                     if not lis:
-                                        lis = get_content6(html)
+                                        lis = get_content5(html)
+                                        if not lis:
+                                            lis = get_content6(html)
+                                            if not lis:
+                                                lis = get_content7(html)
+                                    else:
+                                        fix_count += 1
                     content_lis = [_ for _ in lis]
                     num = get_article_num(html)
                     title = get_title(html)
@@ -181,17 +224,23 @@ def clean_all_article():
                         for i in range(2, num + 1):
                             with open(filename.replace('html/', 'html1/').replace('.html', '%d.html' % i), 'r') as f1:
                                 html1 = f1.read()
-                                lis = get_content1(html1)
+                                lis = get_content0(html1)
                                 if not lis:
-                                    lis = get_content2(html1)
+                                    lis = get_content1(html1)
                                     if not lis:
-                                        lis = get_content3(html1)
+                                        lis = get_content2(html1)
                                         if not lis:
-                                            lis = get_content4(html1)
+                                            lis = get_content3(html1)
                                             if not lis:
-                                                lis = get_content5(html1)
+                                                lis = get_content4(html1)
                                                 if not lis:
-                                                    lis = get_content6(html1)
+                                                    lis = get_content5(html1)
+                                                    if not lis:
+                                                        lis = get_content6(html1)
+                                                        if not lis:
+                                                            lis = get_content7(html1)
+                                                else:
+                                                    fix_count += 1
                                 for li in lis:
                                     content_lis.append(li)
                     content = ""
@@ -199,7 +248,8 @@ def clean_all_article():
                         for li in content_lis:
                             content += '  %s\n' % li
                     else:
-                        print '%s/%s >> %s' % (category, l[0], l[1])
+                        if not l[1] in category_url:
+                            print '%s/%s >> %s' % (category, l[0], l[1])
                     with open('%s%s.csv' % (result_path, category), 'a') as f:
                         f.write('"%s","%s","%s","%s","%s"\n' % (title.encode("utf-8"), l[1].encode("utf-8"),
                                                                 date.encode("utf-8"),
@@ -208,6 +258,7 @@ def clean_all_article():
                 else:
                     with open('error.csv', 'a') as error:
                         error.write(line)
+    print fix_count
 
 
 if __name__ == "__main__":
@@ -220,3 +271,4 @@ if __name__ == "__main__":
 
 
 
+# 3 1 2 6 0 4 5
