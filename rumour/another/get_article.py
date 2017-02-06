@@ -12,15 +12,16 @@ def get_catalog():
     with open('category_url.tsv', 'r') as f:
         for line in f:
             line = line.strip().split('\t')
-            url = line[1]
-            r = requests.get(url)
-            html = r.text
-            print line[0]
-            with open('%s%s.html' % (catalog_path, line[0].replace('/', '-')), 'w') as new:
-                new.write(html)
+            if len(line) == 3:
+                url = line[1]
+                r = requests.get(url)
+                html = r.text
+                print line[0]
+                with open('%s%s.html' % (catalog_path, line[0].replace('/', '-')), 'w') as new:
+                    new.write(html)
 
 
-def get_article_url(html, filename):
+def get_article_url(html, cla, filename):
     print "%s start" % filename
     doc = pq(html)
     divs1 = doc('div[class="article-unit article-unit-img-wrapper group"]')
@@ -37,7 +38,7 @@ def get_article_url(html, filename):
                 if a:
                     title = a.text().replace('\t', '').replace('\n', '')
                     href = a.attr('href').replace('\t', '').replace('\n', '')
-                    f.write('%s\t%s\n' % (title, href))
+                    f.write('%s\t%s\t%s\n' % (title.encode('utf-8'), href.encode('utf-8'), cla.encode('utf-8')))
                     count += 1
     print ">>>>>>> %s contain %d" % (filename, count)
     return count
@@ -45,11 +46,16 @@ def get_article_url(html, filename):
 
 def get_all_article_url():
     index = 0
-    for filename in glob.glob(r'%s*.html' % catalog_path):
-        with open(filename, 'r') as f:
-            html = f.read()
-            count = get_article_url(html, filename.replace(catalog_path, article_url_path).replace('.html', '.tsv'))
-            index += count
+    with open('category_url.tsv', 'r') as f:
+        for line in f:
+            line = line.strip().split('\t')
+            if len(line) == 3:
+                filename = '%s%s.html' % (catalog_path, line[0].replace('/', '-'))
+                with open(filename, 'r') as f:
+                    html = f.read()
+                    count = get_article_url(html, line[2],
+                                            filename.replace(catalog_path, article_url_path).replace('.html', '.tsv'))
+                    index += count
     print index
 
 

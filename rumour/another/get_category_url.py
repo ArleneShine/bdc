@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import requests
+import re
 from pyquery import PyQuery as pq
 
 
@@ -8,6 +9,21 @@ def get_index_html():
     r = requests.get(url)
     with open('index.html', 'w') as f:
         f.write(r.text)
+
+
+def get_class(url):
+    part = re.match(r'http[s]*://urbanlegends.about.com/od/\S+', url)
+    if part:
+        part = re.match(r'http[s]*://urbanlegends.about.com/od/[^/\s]+/', url)
+        del_part = re.match(r'http[s]*://urbanlegends.about.com/od/', url).group()
+        if part:
+            part = part.group()
+            cla = part.replace(del_part, '').replace('/', '')
+        else:
+            cla = url.replace(del_part, '')
+        return cla
+    else:
+        return ''
 
 
 def get_categories():
@@ -22,7 +38,8 @@ def get_categories():
             li = pq(li)
             title = li('a').text().replace('\t', '').replace('\n', '')
             href = li('a').attr('href').replace('\t', '').replace('\n', '')
-            new.write('%s\t%s\n' % (title, href))
+            cla = get_class(href)
+            new.write('%s\t%s\t%s\n' % (title.encode('utf-8'), href.encode('utf-8'), cla.encode('utf-8')))
 
 
 if __name__ == "__main__":

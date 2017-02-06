@@ -1,0 +1,48 @@
+# 说明
+
+## 文章总数： 876
+
+## 文章内容解析数量： 876-15 （未能解析的原因有多个： 该链接内容不存在; 该链接不是文章链接，而是目录; 该文章没有内容，只有图片或视频; 等等）
+如下：（目录标题+链接）
+	Facebook Rumors & Hoaxes	http://urbanlegends.about.com/od/facebook/
+	Starbucks Gift Card Scam	http://urbanlegends.about.com/od/facebook/
+	Tim Hortons Gift Card Scam	http://urbanlegends.about.com/od/facebook/
+	'Tsunami Whale Video' Clickjacking Scam	http://urbanlegends.about.com/od/facebook/
+	MediaMass Fake News Site Claims Jack Bruce Death a Hoax	http://wafflesatnoon.com/jack-bruce-death-hoax/
+	Man Dies in Haunted House, Mistaken for Prop for Almost 2 Weeks	http://www.snopes.com/media/notnews/scaredstiff.asp
+	Whistleblower: Ebola Vaccine Contains RFID Chips	http://badsatiretoday.com/ebola-vaccine-contains-rfid-chips-cdc-whistleblower/
+	Urban Legends	http://urbanlegends.about.com/
+	Jon Heder ('Napoleon Dynamite') Is Dead	http://urbanlegends.about.com/
+	Will Ferrell Is Dead	http://urbanlegends.about.com/
+	Obama, Barack	http://urbanlegends.about.com/od/barackobama/
+	Joe Biden to Step Down as VP Candidate	http://www.about.com/newsissues/topic/presidential-election
+	'A New Twist on Kidnapping' (Flat Tire at the Mall)	http://urbanlegends.about.com/od/index.htm
+	The Kidney Thieves	http://urbanlegends.about.com/cs/kidneythieves/index.htm
+	Painted Cats	http://urbanlegends.about.com/
+	
+
+## 文章标题解析数量： 876-10
+如下：（目录标题+链接）
+	MediaMass Fake News Site Claims Jack Bruce Death a Hoax	http://wafflesatnoon.com/jack-bruce-death-hoax/
+	Man Dies in Haunted House, Mistaken for Prop for Almost 2 Weeks	http://www.snopes.com/media/notnews/scaredstiff.asp
+	Whistleblower: Ebola Vaccine Contains RFID Chips	http://badsatiretoday.com/ebola-vaccine-contains-rfid-chips-cdc-whistleblower/
+	Urban Legends	http://urbanlegends.about.com/
+	Jon Heder ('Napoleon Dynamite') Is Dead	http://urbanlegends.about.com/
+	Will Ferrell Is Dead	http://urbanlegends.about.com/
+	The Wonderful World of Disney	http://urbanlegends.about.com/msubdis.htm
+	Joe Biden to Step Down as VP Candidate	http://www.about.com/newsissues/topic/presidential-election
+	The Kidney Thieves	http://urbanlegends.about.com/cs/kidneythieves/index.htm
+	Painted Cats	http://urbanlegends.about.com/
+
+## 文章日期解析数量： 876-7
+如下：（目录标题+链接）
+	MediaMass Fake News Site Claims Jack Bruce Death a Hoax	http://wafflesatnoon.com/jack-bruce-death-hoax/
+	Man Dies in Haunted House, Mistaken for Prop for Almost 2 Weeks	http://www.snopes.com/media/notnews/scaredstiff.asp
+	Whistleblower: Ebola Vaccine Contains RFID Chips	http://badsatiretoday.com/ebola-vaccine-contains-rfid-chips-cdc-whistleblower/
+	Joe Biden to Step Down as VP Candidate	http://www.about.com/newsissues/topic/presidential-election
+	'A New Twist on Kidnapping' (Flat Tire at the Mall)	http://urbanlegends.about.com/od/index.htm
+	Snuff Films	http://www.csicop.org/si/9905/snuff.html
+	The Kidney Thieves	http://urbanlegends.about.com/cs/kidneythieves/index.htm
+
+
+## 另外说明：有些文章目录标题与文章标题不同，所以都记录在文件里了（分别为title和article-title）

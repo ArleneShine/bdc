@@ -1,5 +1,5 @@
-"Title","Url","Date","Content","Category"
-"The Biggest Rattlesnake in Texas","http://urbanlegends.about.com/od/snakes/fl/The-Biggest-Rattlesnake-in-Texas.htm","2015-10-04 18:03:59","  By David Emery
+"Title","Url","Article-title","Date","Content","Category","class"
+"Is This How Big Rattlesnakes Get in Texas?","http://urbanlegends.about.com/od/snakes/fl/The-Biggest-Rattlesnake-in-Texas.htm","The Biggest Rattlesnake in Texas","2015-09-30 14:53:57","  By David Emery
   Synopsis: Found circulating via forwarded email, here is a viral image of what appears to be a giant rattlesnake killed in Texas, allegedly measuring 9 feet, 1 inch in length and weighing 97 pounds.
   Description: Viral image Circulating since: 2005 Status: Unknown
   Example:
@@ -19,8 +19,8 @@
   Snake Photo Likely Trick Photography The Courier , 26 February 2013
   About That Giant Dead Rattlesnake Email You Got... Living Alongside Wildlife, 21 July 2009
   Last updated 09/30/15
-","Urban Legends: Animals and Insects"
-"Calico Buck / Calico Deer","http://urbanlegends.about.com/od/animalsinsects/ss/calico_buck.htm","2015-12-06 15:46:59","  Description: Viral images Circulating since: Jan. 2009 Status: Mislabeled
+","Urban Legends: Animals and Insects","animalsinsects"
+"This Hunter Says He Shot a 'Calico' Buck","http://urbanlegends.about.com/od/animalsinsects/ss/calico_buck.htm","Calico Buck / Calico Deer","2009-02-05 22:38:24","  Description: Viral images Circulating since: Jan. 2009 Status: Mislabeled
   Example: Email contributed by Jolene W., Feb. 5, 2009:
   The word ' calico ' aptly describes the coloring of this handsome animal, though ' piebald ' is more often used.
   Piebald deer are white-tailed deer with a genetic defect resulting in a coat with asymmetrical white and brown (or white and black) patches. Experts say the anomaly is quite rare.
@@ -35,8 +35,8 @@
   Buck Manager, 17 July 2007
   Piebald Buck Is from East Texas Buck Manager, 30 December 2008
   Last updated: 12/05/15
-","Urban Legends: Animals and Insects"
-"Dead Frog Found in Can of Peas","http://urbanlegends.about.com/od/contaminations/ss/Dead-Frog-in-Can-of-Peas.htm","2015-11-01 21:04:51","  Description: Email rumor Circulating since: March 2003 Status: True
+","Urban Legends: Animals and Insects","animalsinsects"
+"Canned Peas with Frog","http://urbanlegends.about.com/od/contaminations/ss/Dead-Frog-in-Can-of-Peas.htm","Dead Frog Found in Can of Peas","2015-10-31 22:55:56","  Description: Email rumor Circulating since: March 2003 Status: True
   Example: Email contributed by L Holmes, March 26, 2003:
   FW: Piper's Frog in Kroger peas
   For those of you that haven't already heard from me personally here is a little story about Kroger (Dillons) brand canned peas. Trust me, it is NO JOKE.
@@ -56,8 +56,8 @@
   In recognition of this, it is often said that even the most outlandish urban legends contain at least a small grain of truth. Some, we are now compelled to add, contain an entire legume's worth.
   Look before you eat!
   Last updated 10/31/15
-","Urban Legends: Animals and Insects"
-"Do You Need to Press the "Clear" Button After Paying at the Gas Pump?","http://urbanlegends.about.com/od/business/a/clear_button.htm","2016-05-29 20:53:13","  By David Emery
+","Urban Legends: Animals and Insects","animalsinsects"
+"What Happens If You Don't Press 'Clear' After Paying at the Gas Pump?","http://urbanlegends.about.com/od/business/a/clear_button.htm","Do You Need to Press the 'Clear' Button After Paying at the Gas Pump?","2008-07-21 22:26:04","  By David Emery
   Description: Online rumor Circulating since: May 2008 Status: False
   Summary: Viral message advises service station customers to press the 'clear' button after using a debit or credit card at the gas pump so subsequent users won't be able to 'piggyback' charges on their accounts.
   Example #1: Email contributed by Yvonne H., June 2, 2008:
@@ -85,8 +85,8 @@
   Warning About Paying at the Pump KRDO-TV News, 3 July 2008
   Supposed Warning at the Gas Pump KJRH-TV News, 28 July 2008
   Police Warn Residents of Fraudulent Charges, Scams Newsleaders.com, 31 July 2008
-","Urban Legends: Animals and Insects"
-"Elephants: What Do They Eat, Where Do They Live and What Makes Them Special?","http://ecology.about.com/od/Ecology/fl/Elephants-What-Do-They-Eat-Where-Do-They-Live-and-What-Makes-Them-Special.htm","2016-01-24 19:12:22","  By Jenn Savedge
+","Urban Legends: Animals and Insects","animalsinsects"
+"Elephants: What Makes Them So Unique?","http://ecology.about.com/od/Ecology/fl/Elephants-What-Do-They-Eat-Where-Do-They-Live-and-What-Makes-Them-Special.htm","Elephants: What Do They Eat, Where Do They Live and What Makes Them Special?","2015-06-05 21:12:52","  By Jenn Savedge
   Elephants once roamed over large swaths of Africa and Asia. But they were almost wiped completely off of the map by the aggressive ivory trade of the early 20th century. Fortunately, international regulations were put in place at the latter part of that century to protect these gentle giants, and there populations - while still diminished - are finally beginning to recover.
   Elephants are massive mammals. They can reach a height of 13 feet and a weight of 15,000 pounds. In general, there are two recognized subspecies of elephants - the African elephant and the Asian elephant, with the greatest difference between the two being their physical location. African elephants are scattered throughout sub-saharan Africa while Asian elephants are found in southern and southeastern Asia.
   These massive creatures are known for their thick bodies, stocky legs, giant floppy ears, trunks, and tusks. Those big ears help elephants stay cool in hot, dry conditions.
@@ -100,8 +100,8 @@
   One topic that has been the subject of lots of research regarding elephants is their methods of communication. Elephants have been known to communicate via touch, sight, smell, and sound. Over long distances, they can use seismic communication - or vibrations made by stomping their feet - to communicate dangers to other members of the herd.
   Elephants are prey animals that are hunted by top predators such as lions, tigers, and hyenas. But usually, these animals only go after the very young or the very old. The elephant's greatest threat is humankind. Both African and Asian elephants were hunted nearly to extinction before a ban on ivory trade was enacted by the International Union for Conservation of Nature in 1989. Asian elephants are still classified as endangered , while African elephants are considered vulnerable.
   Habitat loss is another threat that faces the existence of elephants. Human-elephant conflicts have increased over the years as humans have encroached more and more upon elephant habitat and migratory routes.
-","Urban Legends: Animals and Insects"
-"Giant Coconut Crab","http://urbanlegends.about.com/od/fish/ss/coconut_crab.htm","2016-08-23 06:44:31","  Description: Viral images Circulating since: 2007 Status: Authentic (details on next page)
+","Urban Legends: Animals and Insects","animalsinsects"
+"Holy Crab! Can Coconut Crabs Really Get That Big?","http://urbanlegends.about.com/od/fish/ss/coconut_crab.htm","Giant Coconut Crab","2009-03-11 16:53:10","  Description: Viral images Circulating since: 2007 Status: Authentic (details on next page)
   Example: Email text contributed by Dallas B., Feb. 6, 2009:
   Analysis: Of the preceding pair of images, the one above has been authenticated (it appears in the photostream of a Flickr user named 'BlueBec') but the other , while presumably just as authentic, has yet to be sourced. The EXIF data embedded in the first image indicates the photo was taken on April 4, 2007 with an Olympus digital camera and that it was not subsequently edited. In short, these scary-looking beasts are real.
   Coconut crabs (also known as 'robber crabs,' and by the scientific name Birgus latro) are related to hermit crabs and typically grow to about 16 inches in length, pincer to pincer, though there have been anecdotal reports of specimens double that size. In any case, it is the world's largest species of land crab and reputedly lives as long as 50 years. An inhabitant of islands throughout the Indian and central Pacific oceans, the coconut crab tends to stick close to beaches, though it can't live in water (in fact, it will drown if submerged for too long a period of time). True to both of its common names, the omnivorous crustacean's preferred food source is the white flesh of fallen coconuts, though it will fall back on whatever sustenance is at hand, including such delicacies as might be scavenged from a garbage can (as in the first image).
@@ -112,8 +112,8 @@
   Extraordinary Animals: An Encyclopedia of Curious and Unusual Animals By Ross Piper (Westport, Conn: Greenwood Publishing, 2007)
   Coconut Crabs Eat Everything from Kittens to, Maybe, Amelia Earhart Smithsonian.com, 26 December 2013
   Video: Giant Crab Takes Walk Down the Street MSNBC.com, 2 January 2015
-","Urban Legends: Animals and Insects"
-"Giant Wild Boar Shot in Conroe, Texas?","http://urbanlegends.about.com/od/animalsinsects/ss/wild_boar_tx.htm","2016-08-23 06:36:11","  Description: Viral images Circulating since: March 2009 Status: False / Mislabeled Analysis: See last page
+","Urban Legends: Animals and Insects","animalsinsects"
+"Is This '1800-Pound' Wild Boar for Real?","http://urbanlegends.about.com/od/animalsinsects/ss/wild_boar_tx.htm","Giant Wild Boar Shot in Conroe, Texas?","2009-04-13 17:49:50","  Description: Viral images Circulating since: March 2009 Status: False / Mislabeled Analysis: See last page
   Example #1: Email contributed by Lorilee C., March 19, 2009:
   Example #2: Email contributed by Cathy M., Nov. 18, 2010:
   A Texas Pig
@@ -141,8 +141,8 @@
   Sources and further reading:
   Rumors of Giant Hog Turn Out to Be Bull Conroe Courier , 3 March 2009 Nature Tours Turkey Website of Turkish hunting tour company Wild Boar (Sus Scrofa) General info from Animal Diversity Web
   Last updated: 07/09/15
-","Urban Legends: Animals and Insects"
-"Photo of a Giant "New York Rat"","http://urbanlegends.about.com/od/rodents/fl/Photo-of-a-Giant-New-York-Rat.htm","2016-02-01 14:56:56","  By David Emery
+","Urban Legends: Animals and Insects","animalsinsects"
+"Is This Photo of a Behemoth 'New York Rat' for Real?","http://urbanlegends.about.com/od/rodents/fl/Photo-of-a-Giant-New-York-Rat.htm","Photo of a Giant 'New York Rat'","2016-02-01 03:20:31","  By David Emery
   Description: Viral image Circulating since: 2009 Status: Misrepresented
   Analysis: This image of a man holding a dead rat the size of a small dog circulated via Facebook in January 2016. The caption read, simply, 'New York rats. And yes it's real.'
   But while the photo may, in fact, be authentic (it appears to be, though I haven't yet been able to nail down its origin), it probably wasn't taken in New York City, it was definitely not taken in 2016 and the pictured rodent is emphatically not a typical 'New York rat.'
@@ -159,8 +159,8 @@
   Shock Photo of Giant Rodent Blamed for Child Attacks The Sun , 3 June 2011
   Is This the World's Biggest Rat? Irish Mirror , 23 November 2015
   The Rat Paths of New York New York Times , 28 April 2015
-","Urban Legends: Animals and Insects"
-"Mountain Lion Stalks Elk Hunter","http://urbanlegends.about.com/od/animalsinsects/ss/Mountain-Lion-Vs-Elk-Hunter.htm","2014-11-21 15:32:54","  Description: Viral image / Hoax Circulating since: Oct. 2010 Status: Fake (see details below)
+","Urban Legends: Animals and Insects","animalsinsects"
+"Is This Photo of a Cougar Stalking a Hunter Real?","http://urbanlegends.about.com/od/animalsinsects/ss/Mountain-Lion-Vs-Elk-Hunter.htm","Mountain Lion Stalks Elk Hunter","2010-11-04 18:22:49","  Description: Viral image / Hoax Circulating since: Oct. 2010 Status: Fake (see details below)
   Text example: Email contributed by Fred M., Nov. 2, 2010:
   FW: spectator
   This is freaking scary. As you know I was alone when I downed this elk in ND. I was using my camera’s timer attached to my shooting stick to give me enough time to get into the picture. I knew there were a lot of cats in the area but had no idea they would come in this close to people. He had to be within 10 feet of me and I didn’t even know it. I about crapped my pants when I looked at the pictures the next morning and saw he was there.
@@ -171,8 +171,8 @@
   Hoax Photo of Alleged North Dakota Elk Hunter and Cougar Making the Rounds Cougar News, 20 October 2010
   Cougar Behind Elk Hunter Photo Making the Rounds Lewiston Tribune Outdoors blog, 19 October 2010
   Last updated 09/18/13
-","Urban Legends: Animals and Insects"
-"Try Not to Laugh at These 17 Hysterically Funny Urban Legends!","http://urbanlegends.about.com/od/humor/ss/Funny-Stories-Urban-Legends.htm","2016-01-05 05:33:53","  Need a laugh? Sit back and enjoy this collection of funny stories from our archive. 17 awesome urban legends with a punch line!
+","Urban Legends: Animals and Insects","animalsinsects"
+"17 Hysterically Funny Urban Legends!","http://urbanlegends.about.com/od/humor/ss/Funny-Stories-Urban-Legends.htm","Try Not to Laugh at These 17 Hysterically Funny Urban Legends!","2010-07-14 23:04:47","  Need a laugh? Sit back and enjoy this collection of funny stories from our archive. 17 awesome urban legends with a punch line!
   A CHARLOTTE, North Carolina man, having purchased a case of rare, very expensive cigars, insured them against (get this) fire! Within a month, having smoked his entire stockpile of fabulous cigars, and having yet to make a single premium payment on the policy, the man filed a claim against the insurance company.
   In his claim, the man stated that he had lost the cigars 'in a series of small fires.' The insurance company refused to pay, citing the obvious reason that the man had consumed the cigars in a normal fashion. The man sued — and won! In delivering his ruling, the judge stated that since the man held a policy from the company in which it had warranted that the cigars were insurable and also guaranteed that the cigars would be insured against fire, without defining what it considered to be unacceptable fire, it was obligated to compensate the insured for his loss.
   Rather than endure a lengthy and costly appeal process, the insurance company grudgingly accepted the judge's ruling and paid the man $15,000 for the rare cigars he lost in the fires. After the man cashed his check, however, the insurance company had him arrested on 24 counts of arson. With his own insurance claim and testimony from the previous case being used as evidence against him, the man was convicted of intentionally burning the rare cigars and sentenced to 24 consecutive one-year terms.
@@ -328,8 +328,8 @@
   On regaining her feet she looked across the bonnet and found herself staring at her husband standing idly by.
   The mechanic however had to have three stitches in his head.
   (As shared on the Internet)
-","Urban Legends: Animals and Insects"
-"National Kill a Pit Bull Day? It's a Hoax","http://urbanlegends.about.com/od/dogs/ss/National-Kill-A-Pit-Bull-Day.htm","2016-02-01 00:57:55","  Description: Online rumor / Hoax Circulating since: Sep. 2012 Status: False (details below)
+","Urban Legends: Animals and Insects","animalsinsects"
+"There's No Such Thing as 'National Kill a Pit Bull Day'","http://urbanlegends.about.com/od/dogs/ss/National-Kill-A-Pit-Bull-Day.htm","National Kill a Pit Bull Day? It's a Hoax","2013-09-17 23:55:59","  Description: Online rumor / Hoax Circulating since: Sep. 2012 Status: False (details below)
   Full text: As shared on Facebook, Sep. 8, 2013:
   Warning!!
   Don't plan on your four legged friends walking around with you on Halloween this year.
@@ -351,8 +351,8 @@
   'Kill a Pitbull Day' Sparks Online Fire Times Free Press , 21 September 2012
   Aniaml Rescue Groups Taking 'Kill a Pit Bull Day' Seriously NBC12-TV News, 7 October 2012
   Halloween... a.k.a. National Kill a Pit Bull Day? Fox21News.com, 31 October 2012
-","Urban Legends: Animals and Insects"
-"Is This a West Virginia Mountain Lion?","http://urbanlegends.about.com/od/animalkingdom/ss/West-Virginia-Mountain-Lion.htm","2016-04-25 05:39:12","  Viral images show an unusually large mountain lion (cougar) purportedly killed near Parkersburg, West Virginia (or elsewhere, such as Altoona, Pennsylvania, Cadiz, Kentucky, and other unlikely locations).
+","Urban Legends: Animals and Insects","animalsinsects"
+"Don't Believe Anything the Internet Says About This Mountain Lion","http://urbanlegends.about.com/od/animalkingdom/ss/West-Virginia-Mountain-Lion.htm","Is This a West Virginia Mountain Lion?","2016-04-25 04:10:51","  Viral images show an unusually large mountain lion (cougar) purportedly killed near Parkersburg, West Virginia (or elsewhere, such as Altoona, Pennsylvania, Cadiz, Kentucky, and other unlikely locations).
   Description: Viral images Circulating since: February 2008 Status: Mislabeled
   Example: Email contributed by Tina P., March 3, 2008:
   Subject: Massive Mountain Lion (near parkersburg, wv) This lion was hit between Grantsville and Walker WV.. by a car. Game and Fish had to come and put him down. He charged at the Fish and Game guy in the process. Look at his PAWS!
@@ -373,8 +373,8 @@
   Mountain Lion Exists Only in Hoax Kentucky New Era , 6 March 2008
   West Va. Cougar Kill a Hoax Pittsburgh Post-Gazette , 9 March 2008
   Fake Mountain Lion Email Makes Rounds WPSD-TV News, 10 March 2008
-","Urban Legends: Animals and Insects"
-"Rare Golden Zebra","http://urbanlegends.about.com/od/animalkingdom/ss/Golden-Zebra.htm","2015-11-07 18:59:32","  Description: Viral image Circulating since: April 2013 Status: Real image, color-enhanced
+","Urban Legends: Animals and Insects","animalsinsects"
+"Check Out This Amazing Pic of a Rare 'Golden Zebra'","http://urbanlegends.about.com/od/animalkingdom/ss/Golden-Zebra.htm","Rare Golden Zebra","2013-05-08 23:59:00","  Description: Viral image Circulating since: April 2013 Status: Real image, color-enhanced
   Example caption: As shared on Facebook, April 19, 2013:
   Analysis: This is an actual photograph that has been digitally manipulated — by whom, we don't know — to exaggerate her unusual gold coloring. Zoe the zebra is real, but sans color enhancement her stripes look more beige than golden, and her eyes, though bright blue, don't have the preternatural glow seen above (view original image here , and another here ).
   According to her caretakers at Three Ring Ranch Exotic Animal Sanctuary in Hawaii, Zoe was born with a condition known as amelanosis , a melanin pigment deficiency, and is indeed extremely rare.
@@ -385,8 +385,8 @@
   Extremely Rare White Zebra BuzzFeed, 22 May 2012
   Video: Zoe the White Zebra YouTube, 26 December 2009
   Last updated 11/07/15
-","Urban Legends: Animals and Insects"
-"Picture of a Raccoon Holding a Cat","http://urbanlegends.about.com/od/animalsinsects/fl/Picture-of-a-Raccoon-Holding-a-Cat.htm","2016-10-25 21:37:57","  By David Emery
+","Urban Legends: Animals and Insects","animalsinsects"
+"Is That Raccoon Actually Holding a Kitten in Its Arms?","http://urbanlegends.about.com/od/animalsinsects/fl/Picture-of-a-Raccoon-Holding-a-Cat.htm","Picture of a Raccoon Holding a Cat","2016-10-25 21:38:10","  By David Emery
   Description: Viral image Circulating since: Jan. 2011 (this version) Status: Fake (details below)
   Text example: Email contributed by Kathie J., Feb. 2, 2011:
   FW: Did you lose a cat? This is probably the most amazing picture of 2011!
@@ -395,6 +395,54 @@
   Versions of the image have been circulating online since 2007, or thereabouts — sometimes with cat, sometimes not, sometimes with fire extinguisher, sometimes not.
   The earliest version I've found with the cat — because, apparently, a photo of a raccoon begging on its hind legs in a doorway isn't cute enough by itself — was posted in January 2011.
   You may also enjoy: • Puppy with Heart • Zoe the Golden Zebra • The Giant Mutant Cat of Ontario • Tiger Adopts Piglets • The Rainbow Owl
-","Urban Legends: Animals and Insects"
-"","http://www.snopes.com/critters/malice/feces.htm","","","Urban Legends: Animals and Insects"
-"","http://www.snopes.com/critters/farce/cowtao.htm","","","Urban Legends: Animals and Insects"
+","Urban Legends: Animals and Insects","animalsinsects"
+"Elephants and Enemas","http://www.snopes.com/critters/malice/feces.htm","Feces of Death","2011-07-31 03:28:52-0700","  Claim:
+  A zookeeper in Paderborn, Germany, was killed when an elephant defecated on him.
+  FALSE
+  Example:
+  [Collected on the Internet, 1998]
+  PADERBORN, GERMANY - Overzealous zookeeper Frederic Briefed fed his constipated elephant Stefan 22 doses of animal laxative and more than a bushel of berries, figs and prunes before the plugged-up pachyderm finally let fly — and suffocated the keeper under 200 pounds of poop! Investigators say ill-fated Friedrich, 46, was attempting to give the ailing elephant an olive-oil enema when the relieved beast unloaded on him like a dump truck full of mud. 'The sheer force of the elephant's unexpected defecation knocked Mr. Riesfeldt to the ground, where he struck his head on a rock and lay unconscious as the elephant continued to evacuate his bowels on top of him,' said flabbergasted Paderborn police detective Erik Dern. 'With no one there to help him, he lay under all that dung for at least an hour before a watchman came along, and during that time he suffocated. 'It seems to be just one of those freak accidents that happen sometimes — a billion-to-one shot, at least.' The heartbreaking tale of constipation and tragedy began April 23 when the conscientious zookeeper noticed that his prize, 8,000-pound African elephant didn't seem to be producing his usual poop aplenty. 'Friedrich had actually been concerned for several days because he knew that severe constipation can kill an elephant,' assistant zookeeper Kurt Herrman recalled. 'He told me he was going to stay late that Thursday night to treat Stefan with laxatives and possibly give him an enema. 'I offered to help, but he sent me on home, saying he had everything under control.' But two hours later, horrified night watchman Walter Pleuger found Friedrich lying lifeless under a mound of muck, his body visible only from the knees down. 'I had never really thought about it before,' Det. Dern said. 'But obviously, giving an elephant an enema can be a very dangerous activity — and not something that should be attempted alone.'
+  Origins:
+  In the summer of 1998, this entertaining 'news item' appeared in the
+  Weekly World News
+  , a publication not known for adherence to strict journalistic standards. Fantastic stories invented cut of whole cloth regularly appear in its pages, and this pachyderm tale is but another of that ilk.
+  Photo or not, the story is a fake. There is no zoo in Paderborn, Germany, and a check of that town's phone book fails to reveal listings for either the victim Riesfeldt or detective Erik Dern. Moreover, no reputable news agency carried the story of the unfortunate Friedrich Riesfeldt's demise.
+  Even if we didn't know about the lack of a zoo in Paderborn, this story should have leapt off the page as something that had to be untrue. The key fact in this tale is Riesfeldt's foolhardy yet somewhat successful single-handed attempt to irrigate the elephant's posterior. No wild creature willingly submits to an enema. A lone zookeeper attempting to administer one to a pachyderm wouldn't get very far;
+  the animal would easily brush him aside.
+  The photograph supplied by the
+  Weekly World News
+  is clearly a fake. The posture of the elephant makes one think of a circus animal with the stand it was posed on airbrushed out, but more telling is the lack of enema implements in the shot. If Riesfeldt had truly been overcome by a sudden dam burst of excreta, where are the tools he was using? Where's the tubing and the source of water? (And who took the picture?)
+  Another look at the photo confirms this shot was taken either during daylight hours or in a well-lit circus tent, certainly not in a field after sunset. According to the
+  Weekly World News
+  story, Riesfeldt's body was discovered by the night watchman two hours after Riesfeldt's final conversation with another
+  co-worker
+  in which he announced he was staying late to irrigate the elephant. I am reliably informed elephants do not cast shadows at night.
+  Barbara 'seen the elephant' Mikkelson
+  Last updated:
+  29 July 2011
+","Urban Legends: Animals and Insects","animalsinsects"
+"The Cow Who Fell to Earth","http://www.snopes.com/critters/farce/cowtao.htm","Feces of Death","2011-07-31 03:28:52-0700","  Claim:
+  A zookeeper in Paderborn, Germany, was killed when an elephant defecated on him.
+  FALSE
+  Example:
+  [Collected on the Internet, 1998]
+  PADERBORN, GERMANY - Overzealous zookeeper Frederic Briefed fed his constipated elephant Stefan 22 doses of animal laxative and more than a bushel of berries, figs and prunes before the plugged-up pachyderm finally let fly — and suffocated the keeper under 200 pounds of poop! Investigators say ill-fated Friedrich, 46, was attempting to give the ailing elephant an olive-oil enema when the relieved beast unloaded on him like a dump truck full of mud. 'The sheer force of the elephant's unexpected defecation knocked Mr. Riesfeldt to the ground, where he struck his head on a rock and lay unconscious as the elephant continued to evacuate his bowels on top of him,' said flabbergasted Paderborn police detective Erik Dern. 'With no one there to help him, he lay under all that dung for at least an hour before a watchman came along, and during that time he suffocated. 'It seems to be just one of those freak accidents that happen sometimes — a billion-to-one shot, at least.' The heartbreaking tale of constipation and tragedy began April 23 when the conscientious zookeeper noticed that his prize, 8,000-pound African elephant didn't seem to be producing his usual poop aplenty. 'Friedrich had actually been concerned for several days because he knew that severe constipation can kill an elephant,' assistant zookeeper Kurt Herrman recalled. 'He told me he was going to stay late that Thursday night to treat Stefan with laxatives and possibly give him an enema. 'I offered to help, but he sent me on home, saying he had everything under control.' But two hours later, horrified night watchman Walter Pleuger found Friedrich lying lifeless under a mound of muck, his body visible only from the knees down. 'I had never really thought about it before,' Det. Dern said. 'But obviously, giving an elephant an enema can be a very dangerous activity — and not something that should be attempted alone.'
+  Origins:
+  In the summer of 1998, this entertaining 'news item' appeared in the
+  Weekly World News
+  , a publication not known for adherence to strict journalistic standards. Fantastic stories invented cut of whole cloth regularly appear in its pages, and this pachyderm tale is but another of that ilk.
+  Photo or not, the story is a fake. There is no zoo in Paderborn, Germany, and a check of that town's phone book fails to reveal listings for either the victim Riesfeldt or detective Erik Dern. Moreover, no reputable news agency carried the story of the unfortunate Friedrich Riesfeldt's demise.
+  Even if we didn't know about the lack of a zoo in Paderborn, this story should have leapt off the page as something that had to be untrue. The key fact in this tale is Riesfeldt's foolhardy yet somewhat successful single-handed attempt to irrigate the elephant's posterior. No wild creature willingly submits to an enema. A lone zookeeper attempting to administer one to a pachyderm wouldn't get very far;
+  the animal would easily brush him aside.
+  The photograph supplied by the
+  Weekly World News
+  is clearly a fake. The posture of the elephant makes one think of a circus animal with the stand it was posed on airbrushed out, but more telling is the lack of enema implements in the shot. If Riesfeldt had truly been overcome by a sudden dam burst of excreta, where are the tools he was using? Where's the tubing and the source of water? (And who took the picture?)
+  Another look at the photo confirms this shot was taken either during daylight hours or in a well-lit circus tent, certainly not in a field after sunset. According to the
+  Weekly World News
+  story, Riesfeldt's body was discovered by the night watchman two hours after Riesfeldt's final conversation with another
+  co-worker
+  in which he announced he was staying late to irrigate the elephant. I am reliably informed elephants do not cast shadows at night.
+  Barbara 'seen the elephant' Mikkelson
+  Last updated:
+  29 July 2011
+","Urban Legends: Animals and Insects","animalsinsects"
